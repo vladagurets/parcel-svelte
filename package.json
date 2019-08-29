@@ -1,0 +1,21 @@
+{
+  "name": "svelte-parcel",
+  "version": "1.0.0",
+  "description": "Parcel + Svelte template",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "keywords": ["parcel", "svelte", "template", "boilerplate", "zeroconfiguration"],
+  "author": "",
+  "license": "ISC",
+  "browserslist": "> 2%",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-svelte": "^4.0.2"
+  },
+  "dependencies": {
+    "svelte": "^3.9.1"
+  }
+}
